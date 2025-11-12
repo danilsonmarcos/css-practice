@@ -6,7 +6,7 @@
     <title>Css Practice</title>
     <link rel="stylesheet" href="../css/styles.css">
     <style>
-        p{
+        .pExercise1{
             background-color: green;
             color: white; 
             font-size: 18px;
@@ -53,6 +53,13 @@
             height: 400px;
         }
 
+        .content .conteiner{
+            background-color: yellow;
+            color: red;
+            font-size: 20px;
+            text-align: center;
+        }
+
         .buttonYellowClickMe{
             background-color: yellow;
         }
@@ -64,7 +71,7 @@
     <h1>The Solution of the <b>css-practice</b> exercises</h1>
     <h2>Exercise 1</h2>
     <div class="exc1Div">Style me via the external method</div>
-    <p> I would to be styled with the internal method, please</p>
+    <p class="pExercise1"> I would to be styled with the internal method, please</p>
     <button style="background-color: orange; font-size: 18px;"> Inline Method </button>
     <h3>Exercise 1 Ends Here</h3>
     <br>
@@ -85,5 +92,17 @@
     <img class="avatar proportioned" src="../images/pexels-katho-mutodo-8434791.jpg" alt="">
     <img class="avatar distorsed" src="../images/pexels-andrea-piacquadio-3777931.jpg" alt="">
     <h3>Exercise 4 Ends Here</h3>
+    <br>
+    <h2>Exercise 5</h2>
+    <div class="content">
+        <p class="conteiner">This should be styled</p>
+    </div>
+    <p class="conteiner">This should be unstyled</p>
+    <p class="conteiner">This should be unstyled</p>
+    <div class="content">
+        <p class="conteiner">This should be styled</p>
+        <p class="conteiner">This should be styled</p>
+    </div>
+    <h3>Exercise 5 Ends Here</h3>
 </body>
 </html>
