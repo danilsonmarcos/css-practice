@@ -1,0 +1,20 @@
+.div-one{
+    padding: 32px;
+    margin: 32px 32px 10px;
+    background-color: rgb(244, 183, 183);
+    border: 3px solid blue;
+}
+
+.div-two{
+    padding: 2px;
+    margin: 10px;
+    background-color: rgb(5, 170, 196);
+    border: 3px solid rgb(243, 61, 61);
+}
+
+.div-three{
+    padding: 32px;
+    margin: 48px 10px 10px 400px;
+    background-color: rgb(225, 173, 17);
+    border: 3px solid rgb(243, 61, 61);
+}
