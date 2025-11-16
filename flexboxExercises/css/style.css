@@ -1,0 +1,23 @@
+.flex-container{
+    background-color: rgb(58, 112, 248); 
+    border: 6px solid rgb(0, 0, 106); 
+    display: flex;
+    height: 400px;
+    width: 600px;
+    align-items: center;
+}
+
+.flex-item{
+    background-color: rgb(235, 90, 90);
+    color:black; 
+    text-align: center;
+    border: 5px solid rgb(83, 0, 0); 
+    flex: 1;
+    height: 70px;
+    margin: 240px;
+}
+
+p{
+    margin:0; 
+    padding:0;
+}
